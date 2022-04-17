@@ -11,6 +11,8 @@
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-style: italic;
+    font-size: 0.9em;
 }
 
 .post-meta,
@@ -153,7 +155,8 @@
     border-radius: var(--radius);
 }
 
-.post-content .highlight:not(table) {
+.post-content .highlight:not(table),
+.post-content pre {
     margin: 10px auto;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
@@ -193,6 +196,7 @@
 }
 
 .post-content code {
+    font-family: 'Jetbrains Mono', monospace;
     margin: auto 4px;
     padding: 4px 6px;
     font-size: 0.78em;
@@ -231,8 +235,10 @@
 }
 
 .post-content img {
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
-    margin: 1rem 0;
+    /*margin: 1rem 0;*/
 }
 
 .post-content img[src*="#center"] {
