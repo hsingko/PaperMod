@@ -257,6 +257,7 @@
 }
 
 .post-content figure > figcaption > p {
+    text-align: center;
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
