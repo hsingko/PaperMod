@@ -3,7 +3,9 @@
 {{- /* Comments area end */ -}}
 
 <script src="https://cdn.jsdelivr.net/npm/@waline/client"></script>
-<div id="waline" style="margin-top:2em;--waline-font-size:20px"></div>
+<div id="waline" style="margin-top:2em;--waline-font-size:20px;border-radius: var(--radius);
+border: 1px solid var(--border);
+background: var(--code-bg);"></div>
 <script>
   new Waline({
     el: '#waline',
