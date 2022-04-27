@@ -1,8 +1,8 @@
 - id: prev_page
-  translation: "上一页"
+  translation: "上一话"
 
 - id: next_page
-  translation: "下一页"
+  translation: "下一话"
 
 - id: read_time
   translation:
@@ -27,7 +27,7 @@
   translation: "编辑"
 
 - id: code_copy
-  translation: "复制"
+  translation: "Copy"
 
 - id: code_copied
-  translation: "已复制！"
+  translation: "Copied！"
