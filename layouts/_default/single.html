@@ -35,6 +35,10 @@
   </div>
   {{- end }}
 
+
+
+  {{- partial "related.html" . }}
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
@@ -42,6 +46,7 @@
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
+
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
@@ -49,6 +54,8 @@
     {{- partial "share_icons.html" . -}}
     {{- end }}
   </footer>
+
+
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}

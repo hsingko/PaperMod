@@ -220,7 +220,8 @@
 .post-content blockquote {
     margin: 20px 0;
     padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    border-inline-start: 3px solid #2096ff;
+    font-style: italic;
 }
 
 .post-content hr {
