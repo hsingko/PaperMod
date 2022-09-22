@@ -217,8 +217,8 @@
     margin: 20px 0;
     padding: 0 14px;
     border-inline-start: 3px solid #2096ff;
-    /* font-style: italic; */
-    font-family: 'Noto Sans CJK', sans-serif;
+    font-style: italic;
+    font-family: serif;
 }
 
 .post-content hr {
@@ -377,17 +377,6 @@
     margin-inline-end: 12px;
 }
 
-.share-buttons a svg {
-    height: 30px;
-    width: 30px;
-    fill: currentColor;
-    transition: transform 0.1s;
-}
-
-.share-buttons svg:active {
-    transform: scale(0.96);
-}
-
 h1:hover .anchor,
 h2:hover .anchor,
 h3:hover .anchor,
@@ -442,3 +431,11 @@ h6:hover .anchor {
 h1>a>svg {
     display: inline;
 }
+<<<<<<< HEAD
+=======
+
+img.in-text {
+    display: inline;
+    margin: auto;
+}
+>>>>>>> a85affac51effa0f5396dd522c9413ce5d2310ef

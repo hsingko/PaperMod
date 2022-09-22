@@ -32,9 +32,11 @@
 {{- if site.Params.analytics.bing.SiteVerificationTag }}
 <meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
 {{- end }}
+{{- if site.Params.analytics.naver.SiteVerificationTag }}
+<meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
+{{- end }}
 
 {{- /* Styles */}}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
 {{- /* includes */}}
 {{- $includes := slice }}
 {{- $includes = $includes | append (" " | resources.FromString "assets/css/includes-blank.css")}}
