@@ -218,7 +218,7 @@
     padding: 0 14px;
     border-inline-start: 3px solid #2096ff;
     font-style: italic;
-    font-family: serif;
+    /* font-family: serif; */
 }
 
 .post-content hr {
@@ -334,32 +334,32 @@
     margin-top: 56px;
 }
 
-.post-tags li {
-    display: inline-block;
-    margin-inline-end: 3px;
-    margin-bottom: 5px;
-}
+/* .post-tags li { */
+/*     display: inline-block; */
+/*     margin-inline-end: 3px; */
+/*     margin-bottom: 5px; */
+/* } */
 
-.post-tags a,
+/* .post-tags a, */
 .share-buttons,
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
 }
 
-.post-tags a {
-    display: block;
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
-    color: var(--secondary);
-    font-size: 14px;
-    line-height: 34px;
-    background: var(--tertiary);
-}
+/* .post-tags a { */
+/*     display: block; */
+/*     padding-inline-start: 14px; */
+/*     padding-inline-end: 14px; */
+/*     color: var(--secondary); */
+/*     font-size: 14px; */
+/*     line-height: 34px; */
+/*     background: var(--tertiary); */
+/* } */
 
-.post-tags a:hover {
-    background: var(--border);
-}
+/* .post-tags a:hover { */
+/*     background: var(--border); */
+/* } */
 
 .share-buttons {
     margin: 14px 0;
