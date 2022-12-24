@@ -36,8 +36,10 @@
   {{- end }}
 
 
-
+  {{- if (.Param "showRelated") }}
   {{- partial "related.html" . }}
+  {{- end }}
+
 
   <footer class="post-footer">
     <!-- {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }} -->

@@ -11,7 +11,7 @@ pre {
 }
 
 .post-content pre code {
-	font-family: 'Inconsolata';
+    font-family: 'Inconsolata';
 }
 
 pre::after {
@@ -287,4 +287,14 @@ body {
     .friendname {
         font-size: 18px;
     }
+}
+
+
+
+
+/* verse style */
+.verse{
+    text-indent: 0.0em;
+    font-style: italic;
+    text-align: center;
 }
