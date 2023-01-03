@@ -195,7 +195,7 @@
 }
 
 .post-content code {
-    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
     margin: auto 4px;
     padding: 4px 6px;
     font-size: 0.78em;
