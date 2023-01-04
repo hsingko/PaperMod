@@ -437,11 +437,9 @@ h6:hover .anchor {
 h1>a>svg {
     display: inline;
 }
-<<<<<<< HEAD
-=======
-
 img.in-text {
     display: inline;
     margin: auto;
 }
->>>>>>> a85affac51effa0f5396dd522c9413ce5d2310ef
+
+.paginav a:hover {background: var(--border);}
