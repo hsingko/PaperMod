@@ -41,7 +41,8 @@
     --content: rgb(196, 196, 197);
     --hljs-bg: rgb(51, 65, 85);
     --code-bg: rgb(51, 65, 85);
-    --border: rgb(51, 65, 85);
+    /* --border: rgb(51, 65, 85); */
+    --border: rgb(51, 60, 80);
 }
 
 
