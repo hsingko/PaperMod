@@ -7,8 +7,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 body{
     font-family: -apple-system,system-ui,segoe ui,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,helvetica neue,pingfang sc,hiragino sans gb,microsoft yahei,Arial;
-    font-size: 1em;
-    line-height: 1.5;
+    font-size: 1.125rem;
+    line-height: 1.5em;
     margin: 0;
 }
 pre {
